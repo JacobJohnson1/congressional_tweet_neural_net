@@ -7,7 +7,10 @@ What did you do to prepare your data? What categories did you collapse?
 What standardizations, if any, did you employ? Why did you select those? Basically, 
 describe what you did to get your data ready. NOTE: This may be one of the larger 
 sections of your report. In the 'real world,' data scientists spend about 3/4 of their 
-time curating, cleaning, filtering, and preparing data.  
+time curating, cleaning, filtering, and preparing data.   
+  
+I was getting a lot of issues with the NaN (null) values from both the testing & training data, so I went ahead and popped those columns off of the pandas dataframes. I also just didn't find the years that tweets took place to be important information in deciding their political party. I'm sure you could use that data for this problem (e.g. political stances change over time within parties), but I just didn't.
+
 ### Network configuration: 
 How is your network set up? How many layers? How many neurons 
 in each? Did you try any nonlinear features (connecting outputs to inputs more than one 
