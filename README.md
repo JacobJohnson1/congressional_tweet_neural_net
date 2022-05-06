@@ -31,8 +31,8 @@ adding layers, neurons, etc.; as soon as they start to deteriorate, back off.)
 What do you think of the results? What might improve accuracy? Were there 
 surprises along the way? Do you have any (disciplined) speculation about what might have 
 gone wrong or what might have made it work better?
-### References:  
-[1] Python, R., 2022. Practical Text Classification With Python and Keras – Real Python. 
-[online] Realpython.com. Available at: 
-<https://realpython.com/python-keras-text-classification/> [Accessed 20 April 2022].  
-[2] TensorFlow. 2022. Classify structured data using Keras preprocessing layers  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers> [Accessed 4 May 2022].
+### References:   
+[1] TensorFlow. 2022. Classify structured data using Keras preprocessing layers  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers> [Accessed 4 May 2022].  
+[2] TensorFlow. 2022. Load a pandas DataFrame  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/load_data/pandas_dataframe> [Accessed 1 May 2022].  
+[3] Python, R., 2022. Practical Text Classification With Python and Keras – Real Python. [online] Realpython.com. Available at: 
+<https://realpython.com/python-keras-text-classification/> [Accessed 20 April 2022].   
