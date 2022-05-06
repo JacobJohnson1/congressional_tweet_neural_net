@@ -9,7 +9,7 @@ describe what you did to get your data ready. NOTE: This may be one of the large
 sections of your report. In the 'real world,' data scientists spend about 3/4 of their 
 time curating, cleaning, filtering, and preparing data.   
   
-I was getting a lot of issues with the NaN (null) values from both the testing & training data, so I went ahead and popped those columns off of the pandas dataframes. I also just didn't find the years that tweets took place to be important information in deciding their political party. I'm sure you could use that data for this problem (e.g. political stances change over time within parties), but I just didn't.
+I was getting a lot of issues with the NaN (null) values from both the 'year' columns in the testing & training datasets, so I went ahead and popped those columns off of the pandas dataframes. I also just didn't find the years that tweets took place to be important information in deciding their political party. I'm sure you could use that data for this problem (e.g. political stances change over time within parties), but I just didn't.
 
 ### Network configuration: 
 How is your network set up? How many layers? How many neurons 
@@ -34,4 +34,5 @@ gone wrong or what might have made it work better?
 ### References:  
 [1] Python, R., 2022. Practical Text Classification With Python and Keras – Real Python. 
 [online] Realpython.com. Available at: 
-<https://realpython.com/python-keras-text-classification/> [Accessed 20 April 2022].
+<https://realpython.com/python-keras-text-classification/> [Accessed 20 April 2022].  
+[2] TensorFlow. 2022. Classify structured data using Keras preprocessing layers  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers> [Accessed 4 May 2022].
