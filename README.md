@@ -11,7 +11,7 @@ time curating, cleaning, filtering, and preparing data.
 
 To get my data ready, I used the Pandas dataframe CSV read-in function to format the raw data. From there, I skipped the first line of headers/column labels and read everything else in as it was.  
 I was getting a lot of issues with the NaN (null) values from both the 'year' columns in the testing & training datasets, so I went ahead and popped those columns off of the pandas dataframes. I also just didn't find the years that tweets took place to be important information in deciding their political party. I'm sure you could use that data for this problem (e.g. political stances change over time within parties), but I just didn't.  
-Overall, most of my time was formatting data, learning about tensorflow and necessary data structures, and what needed to be converted to other data structures. Definitely way more than 3/4 of my time.
+Overall, most of my time was spent formatting data, learning about tensorflow and necessary data structures, and what needed to be converted to other data structures. Definitely way more than 3/4 of my time.
 
 ### Network configuration: 
 How is your network set up? How many layers? How many neurons 
@@ -53,12 +53,29 @@ want to tweak your hyperparameters in various ways--add a layer, remove a layer,
 the learning rate, etc. Did these make a difference? (One approach is to start with a 
 very simple network, and slowly build it up. As long as results are improving, keep 
 adding layers, neurons, etc.; as soon as they start to deteriorate, back off.)
+
+My results are a little mixed, but I think this was a great way to learn about the topic. 
+I started with a very simple network and spent so much time trying to make that work 
+that I didn't have a lot of time to make a lot of tweaks or to increase the complexity (
+not that that would have necessarily helped). 
+
 ### Comments:  
 What do you think of the results? What might improve accuracy? Were there 
 surprises along the way? Do you have any (disciplined) speculation about what might have 
 gone wrong or what might have made it work better?
 
-I think I may have had too many epochs and overtrained a little.
+I think I may have had too many epochs and overtrained a little, at least at first. 
+Overall, I'm content that I had results that made sense at all.  
+To improve accuracy, I think I would play around with size and quantity of epochs as well 
+as experimenting with what data is used as input. I would be curious to see how accurate 
+this model could have been with a more narrow selection of data. For instance, I wonder 
+how accurate it could be if it only looked at hashtags and favorites - as opposed to 
+using most of the data as I did.  
+Another comment: I have listed three sources/references below. I needed so much help throughout this 
+project, though, that I'm sure I could be referencing 100 sites, stackoverflow answers, or the official Tensorflow and Keras documentation for 
+tiny fixes and solutions. I apologize in advance if I've missed anything, though.
+
+
 ### References:   
 [1] TensorFlow. 2022. Classify structured data using Keras preprocessing layers  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers> [Accessed 4 May 2022].  
 [2] TensorFlow. 2022. Load a pandas DataFrame  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/load_data/pandas_dataframe> [Accessed 1 May 2022].  
