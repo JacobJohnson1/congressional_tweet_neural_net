@@ -44,7 +44,8 @@ How did you divide your data into training, test, and validation
 sets? What validation strategies did you use? If you used k-fold validation, what was k? 
 How did you lower the risk of overtraining?
 
-I divided my data into an 80/10/10 split (training/test/validation). As stated before, 
+I divided my data into an 80/10/10 split (training/test/validation). I unfortunately did not use k-fold validation.  
+As for reducing the chance of overtraining, I lowered the quantity of epochs. It seemed to me that my system memorized/learned the training data fairly well after only the third epoch. Something I would have continued to do would be to toy around with the size and quantity of epochs.  
 
 ### Results:  
 What did you find? How well did it work? During the project you will probably 
