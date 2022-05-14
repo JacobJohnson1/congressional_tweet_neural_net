@@ -75,6 +75,8 @@ Another comment: I have listed three sources/references below. I needed so much 
 project, though, that I'm sure I could be referencing 100 sites, stackoverflow answers, or the official Tensorflow and Keras documentation for 
 tiny fixes and solutions. I apologize in advance if I've missed anything, though.
 
+### Data:
+https://www.kaggle.com/competitions/congressionaltweetcompetitionspring2022/data?select=congressional_tweet_training_data.csv
 
 ### References:   
 [1] TensorFlow. 2022. Classify structured data using Keras preprocessing layers  |  TensorFlow Core. [online] Available at: <https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers> [Accessed 4 May 2022].  
